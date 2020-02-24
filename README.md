@@ -10,6 +10,7 @@ This [shareable configuration](https://github.com/jedmao/semantic-release-npm-gi
 
 - [`@semantic-release/commit-analyzer`](https://github.com/semantic-release/commit-analyzer)
 - [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
+- [`@semantic-release/changelog`](https://github.com/semantic-release/changelog)
 - [`@semantic-release/npm`](https://github.com/semantic-release/npm)
 - [`@semantic-release/git`](https://github.com/semantic-release/git)
 
