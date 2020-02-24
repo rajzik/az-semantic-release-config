@@ -1,5 +1,7 @@
 # @rajzik/az-semantic-release-config
 
+Main usage of this package is around my project. This package is used with azure devops.
+
 [**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish npm packages with [GitHub](https://github.com).
 
 ## Plugins
