@@ -1,3 +1,9 @@
+### 1.0.1 - 2020-02-24
+
+#### 📘 Docs
+
+- Update readme. ([d265571](https://github.com/rajzik/az-semantic-release-config/commit/d265571))
+
 # 1.0.0 - 2020-02-24
 
 #### 💥 Breaking
