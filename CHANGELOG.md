@@ -1,3 +1,19 @@
+### 1.0.3 - 2020-03-11
+
+#### 📋 Misc
+
+- bump @semantic-release/npm from 7.0.3 to 7.0.4 ([260b9a0](https://github.com/rajzik/az-semantic-release-config/commit/260b9a0))
+- **[deps]** Bump @semantic-release/release-notes-generator from 9.0.0 to 9.0.1 ([73015c0](https://github.com/rajzik/az-semantic-release-config/commit/73015c0))
+
+#### 📦 Dependencies
+
+- bump @semantic-release/npm from 7.0.3 to 7.0.4 ([1b0565b](https://github.com/rajzik/az-semantic-release-config/commit/1b0565b))
+
+#### 🛠 Internals
+
+- Add dependabot config. ([70b5a26](https://github.com/rajzik/az-semantic-release-config/commit/70b5a26))
+- **[deps]** Bump @semantic-release/release-notes-generator ([852a9fa](https://github.com/rajzik/az-semantic-release-config/commit/852a9fa))
+
 ### 1.0.2 - 2020-02-24
 
 #### 📘 Docs
