@@ -1,3 +1,13 @@
+### 1.0.5 - 2020-03-27
+
+#### 📋 Misc
+
+- bump @semantic-release/changelog from 5.0.0 to 5.0.1 ([d96327f](https://github.com/rajzik/az-semantic-release-config/commit/d96327f))
+
+#### 📦 Dependencies
+
+- bump @semantic-release/changelog from 5.0.0 to 5.0.1 ([00dff57](https://github.com/rajzik/az-semantic-release-config/commit/00dff57))
+
 ### 1.0.4 - 2020-03-19
 
 #### 📋 Misc
