@@ -1,3 +1,17 @@
+### 1.0.6 - 2020-04-18
+
+#### 🐞 Fixes
+
+- Parser opts. ([8a4f814](https://github.com/rajzik/az-semantic-release-config/commit/8a4f814))
+
+#### 📋 Misc
+
+- bump semantic-release from 17.0.4 to 17.0.6 ([6740407](https://github.com/rajzik/az-semantic-release-config/commit/6740407))
+
+#### 🛠 Internals
+
+- bump semantic-release from 17.0.4 to 17.0.6 ([b2d9a19](https://github.com/rajzik/az-semantic-release-config/commit/b2d9a19))
+
 ### 1.0.5 - 2020-03-27
 
 #### 📋 Misc
