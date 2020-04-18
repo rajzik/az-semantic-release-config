@@ -21,6 +21,13 @@ module.exports = {
           { type: 'types', release: 'patch' },
           { type: 'misc', release: 'patch' },
         ],
+        parserOpts: {
+          revertPattern: /^Revert\s"([\s\S]*)"\s*This reverts commit (\w*)\./,
+          revertCorrespondence: ['header', 'hash'],
+          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES'],
+          mergePattern: /^Merge pull request #(\d+) from (.*)$/,
+          mergeCorrespondence: ['id', 'source'],
+        },
       },
     ],
     [
