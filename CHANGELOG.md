@@ -1,3 +1,9 @@
+### 1.0.8 - 2020-07-08
+
+#### 📦 Dependencies
+
+- [security] bump npm from 6.13.7 to 6.14.6 (#10) ([845e9b4](https://github.com/rajzik/az-semantic-release-config/commit/845e9b4)), closes [#10](https://github.com/rajzik/az-semantic-release-config/issues/10)
+
 ### 1.0.7 - 2020-07-08
 
 #### 📦 Dependencies
