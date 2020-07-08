@@ -1,3 +1,20 @@
+### 1.0.7 - 2020-07-08
+
+#### 📦 Dependencies
+
+- [security] bump npm-registry-fetch from 4.0.3 to 4.0.5 (#11) ([eafe805](https://github.com/rajzik/az-semantic-release-config/commit/eafe805)), closes [#11](https://github.com/rajzik/az-semantic-release-config/issues/11)
+
+#### 📋 Misc
+
+- bump semantic-release from 17.0.6 to 17.0.7 ([fb0cad6](https://github.com/rajzik/az-semantic-release-config/commit/fb0cad6))
+- bump semantic-release from 17.0.7 to 17.0.8 ([bb3a9b8](https://github.com/rajzik/az-semantic-release-config/commit/bb3a9b8))
+
+#### 🛠 Internals
+
+- bump semantic-release from 17.0.6 to 17.0.7 ([4479c33](https://github.com/rajzik/az-semantic-release-config/commit/4479c33))
+- bump semantic-release from 17.0.7 to 17.0.8 ([9b22b54](https://github.com/rajzik/az-semantic-release-config/commit/9b22b54))
+- bump semantic-release from 17.0.8 to 17.1.1 (#9) ([16e84e0](https://github.com/rajzik/az-semantic-release-config/commit/16e84e0)), closes [#9](https://github.com/rajzik/az-semantic-release-config/issues/9)
+
 ### 1.0.6 - 2020-04-18
 
 #### 🐞 Fixes
