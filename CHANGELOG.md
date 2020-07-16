@@ -1,3 +1,10 @@
+### 1.0.9 - 2020-07-16
+
+#### 📦 Dependencies
+
+- [security] bump lodash from 4.17.15 to 4.17.19 (#13) ([d92a742](https://github.com/rajzik/az-semantic-release-config/commit/d92a742)), closes [#13](https://github.com/rajzik/az-semantic-release-config/issues/13)
+- bump conventional-changelog-beemo from 1.6.0 to 2.0.0 (#12) ([b52165e](https://github.com/rajzik/az-semantic-release-config/commit/b52165e)), closes [#12](https://github.com/rajzik/az-semantic-release-config/issues/12)
+
 ### 1.0.8 - 2020-07-08
 
 #### 📦 Dependencies

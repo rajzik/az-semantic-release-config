@@ -1,6 +1,6 @@
 {
   "name": "@rajzik/az-semantic-release-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "repository": "git@github.com:rajzik/az-semantic-release-config.git",
   "author": "Jan Šilhan <silhanu@gmail.com>",
