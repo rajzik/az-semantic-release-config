@@ -3,7 +3,7 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        config: 'conventional-changelog-beemo',
+        config: '@rajzik/conventional-changelog-beemo',
         releaseRules: [
           { type: 'break', release: 'major' },
           { type: 'breaking', release: 'major' },
@@ -16,16 +16,17 @@ module.exports = {
           { type: 'docs', release: 'patch' },
           { type: 'revert', release: 'patch' },
           { type: 'style', release: 'patch' },
+          { type: 'styles', release: 'patch' },
           { type: 'security', release: 'patch' },
           { type: 'type', release: 'patch' },
           { type: 'types', release: 'patch' },
           { type: 'misc', release: 'patch' },
         ],
         parserOpts: {
-          revertPattern: /^Revert\s"([\s\S]*)"\s*This reverts commit (\w*)\./,
+          revertPattern: /^Revert\s"([\s\S]*)"\s*Reverted commit `(\w*)`\./,
           revertCorrespondence: ['header', 'hash'],
           noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES'],
-          mergePattern: /^Merge pull request #(\d+) from (.*)$/,
+          mergePattern: /^Merged PR (\d+): (.*)/,
           mergeCorrespondence: ['id', 'source'],
         },
       },
@@ -33,7 +34,7 @@ module.exports = {
     [
       '@semantic-release/release-notes-generator',
       {
-        config: 'conventional-changelog-beemo',
+        config: '@rajzik/conventional-changelog-beemo',
       },
     ],
     '@semantic-release/changelog',
@@ -42,7 +43,7 @@ module.exports = {
       '@semantic-release/git',
       {
         message:
-          'ci(release): V${nextRelease.version} [ci skip].\n\n${nextRelease.notes}',
+          'ci(release): V${nextRelease.version} [ci release-skip].\n\n${nextRelease.notes}',
       },
     ],
   ],
