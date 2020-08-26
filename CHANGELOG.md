@@ -1,3 +1,13 @@
+## 1.1.0 - 2020-08-26
+
+#### 🚀 Updates
+
+- Update config with new message. (#14) ([926c912](https://github.com/rajzik/az-semantic-release-config/commit/926c912)), closes [#14](https://github.com/rajzik/az-semantic-release-config/issues/14)
+
+#### 🐞 Fixes
+
+- Deploy. (#15) ([5b96479](https://github.com/rajzik/az-semantic-release-config/commit/5b96479)), closes [#15](https://github.com/rajzik/az-semantic-release-config/issues/15)
+
 ### 1.0.9 - 2020-07-16
 
 #### 📦 Dependencies
