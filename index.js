@@ -3,7 +3,7 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        config: 'conventional-changelog-beemo',
+        config: '@rajzik/conventional-changelog-beemo',
         releaseRules: [
           { type: 'break', release: 'major' },
           { type: 'breaking', release: 'major' },
@@ -24,7 +24,7 @@ module.exports = {
         ],
         parserOpts: {
           revertPattern: /^Revert\s"([\s\S]*)"\s*Reverted commit `(\w*)`\./,
-          revertCorrespondence: ['hash', 'header'],
+          revertCorrespondence: ['header', 'hash'],
           noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES'],
           mergePattern: /^Merged PR (\d+): (.*)/,
           mergeCorrespondence: ['id', 'source'],
@@ -34,7 +34,7 @@ module.exports = {
     [
       '@semantic-release/release-notes-generator',
       {
-        config: 'conventional-changelog-beemo',
+        config: '@rajzik/conventional-changelog-beemo',
       },
     ],
     '@semantic-release/changelog',
