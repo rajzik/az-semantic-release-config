@@ -3,7 +3,7 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "config": "conventional-changelog-beemo",
+        "config": "@rajzik/conventional-changelog-beemo",
         "releaseRules": [
           {
             "type": "break",
@@ -71,7 +71,7 @@
     [
       "@semantic-release/release-notes-generator",
       {
-        "config": "conventional-changelog-beemo"
+        "config": "@rajzik/conventional-changelog-beemo"
       }
     ],
     "@semantic-release/changelog",
