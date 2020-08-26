@@ -35,7 +35,7 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/npm": "^7.0.5",
     "@semantic-release/release-notes-generator": "^9.0.1",
-    "conventional-changelog-beemo": "^2.0.0"
+    "@rajzik/conventional-changelog-beemo": "^2.0.6"
   },
   "peerDependencies": {
     "semantic-release": ">=17"
