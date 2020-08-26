@@ -43,7 +43,7 @@ module.exports = {
       '@semantic-release/git',
       {
         message:
-          'ci(release): V${nextRelease.version} [ci release-skip].\n\n${nextRelease.notes}',
+          'ci(release): V${nextRelease.version} [ci skip].\n\n${nextRelease.notes}',
       },
     ],
   ],
