@@ -1,3 +1,9 @@
+### 1.1.2 - 2020-09-06
+
+#### 📦 Dependencies
+
+- bump @semantic-release/npm from 7.0.5 to 7.0.6 (#16) ([553e917](https://github.com/rajzik/az-semantic-release-config/commit/553e917)), closes [#16](https://github.com/rajzik/az-semantic-release-config/issues/16)
+
 ### 1.1.1 - 2020-08-26
 
 #### 🐞 Fixes
