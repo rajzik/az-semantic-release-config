@@ -1,3 +1,14 @@
+### 1.1.3 - 2020-09-18
+
+#### 📦 Dependencies
+
+- [security] bump node-fetch from 2.6.0 to 2.6.1 (#17) ([7274619](https://github.com/rajzik/az-semantic-release-config/commit/7274619)), closes [#17](https://github.com/rajzik/az-semantic-release-config/issues/17)
+- bump @rajzik/conventional-changelog-beemo from 2.1.0 to 2.1.1 (#18) ([4b4ab43](https://github.com/rajzik/az-semantic-release-config/commit/4b4ab43)), closes [#18](https://github.com/rajzik/az-semantic-release-config/issues/18)
+
+#### 🛠 Internals
+
+- bump semantic-release from 17.1.1 to 17.1.2 (#19) ([66b0f54](https://github.com/rajzik/az-semantic-release-config/commit/66b0f54)), closes [#19](https://github.com/rajzik/az-semantic-release-config/issues/19)
+
 ### 1.1.2 - 2020-09-06
 
 #### 📦 Dependencies
